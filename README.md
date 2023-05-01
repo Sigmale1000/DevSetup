@@ -53,4 +53,8 @@ To learn more about Chocolatey, visit the [official website](https://chocolatey.
 
 We appreciate any contributions to improve this script. Feel free to open issues or submit pull requests if you find ways to make the script more efficient or user-friendly.
 
+## 📜 License
+
+This script is licensed under the GNU General Public License version 3.0. You can find the full text of the license in the LICENSE file.
+
 Happy coding! 🎉
