@@ -18,10 +18,10 @@ Setting up a new development environment can be time-consuming and cumbersome. T
 
 ## 📥 Installation
 
-1. Clone this repository or download the script `dev-setup.ps1` from the repository.
+1. Clone this repository or download the script `devsetup-windows.ps1` from the repository.
 2. Open PowerShell with administrative privileges (Right-click on PowerShell in the Start menu and select "Run as administrator").
 3. Navigate to the folder where you downloaded or cloned the script.
-4. Execute the script by running `.\dev-setup.ps1`.
+4. Execute the script by running `.\devsetup-windows.ps1`.
 
 ## 🎮 Usage
 
