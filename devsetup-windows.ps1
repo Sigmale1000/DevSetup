@@ -35,6 +35,7 @@ Install-Choco
 $tools = @{
     "Git" = "git";
     "Visual Studio Code" = "visualstudiocode";
+    "Hyper" = "hyper";
     "Sublime Text" = "sublimetext3";
     "Atom" = "Atom";
     "Python" = "python";
@@ -77,7 +78,7 @@ $selectedThemes = Read-Host
 $toolsToInstall = @()
 
 switch -Regex ($selectedThemes) {
-    "1" { $toolsToInstall += "Visual Studio Code", "Sublime Text", "Atom" }
+    "1" { $toolsToInstall += "Visual Studio Code", "Hyper", "Sublime Text", "Atom" }
     "2" { $toolsToInstall += "Python", "Node.js", "Yarn", "Ruby", "PHP", "Composer", "Go", "Rust" }
     "3" { $toolsToInstall += "MySQL", "PostgreSQL", "SQLite", "MongoDB",
         "Redis", "Elasticsearch", "Cassandra" }
