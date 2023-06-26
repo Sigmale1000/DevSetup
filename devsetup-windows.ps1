@@ -62,6 +62,37 @@ $tools = @{
     "GitHub Desktop" = "github-desktop";
     "Azure Data Studio" = "azure-data-studio";
     "Firebase CLI" = "firebase";
+    "Scala" = "scala";
+    "Julia" = "julia";
+    "Kotlin" = "kotlin";
+    "R" = "r.project";
+    "Erlang" = "erlang";
+    "Haskell" = "haskell-platform";
+    "Clojure" = "clojure";
+    "Dart" = "dart-sdk";
+    "F#" = "fsharp";
+    "Swift" = "swift";
+    "Perl" = "strawberryperl";
+    "Elixir" = "elixir";
+    "Groovy" = "groovy";
+    "Lua" = "lua";
+    "Rust" = "rust-ms";
+    "InfluxDB" = "influxdb";
+    "Apache CouchDB" = "couchdb";
+    "Neo4j" = "neo4j-community";
+    "Hadoop" = "hadoop";
+    "Apache Kafka" = "kafka";
+    "Apache Zookeeper" = "zookeeper";
+    "Redis Desktop Manager" = "redis-desktop-manager";
+    "Apache Cassandra" = "cassandra";
+    "RabbitMQ" = "rabbitmq";
+    "HBase" = "hbase";
+    "Aerospike" = "aerospike";
+    "JanusGraph" = "janusgraph";
+    "Etcd" = "etcd";
+    "OrientDB" = "orientdb";
+    "PouchDB" = "pouchdb";
+    "RethinkDB" = "rethinkdb";
 }
 
 # Ask user which tools to install
@@ -79,9 +110,9 @@ $toolsToInstall = @()
 
 switch -Regex ($selectedThemes) {
     "1" { $toolsToInstall += "Visual Studio Code", "Hyper", "Sublime Text", "Atom" }
-    "2" { $toolsToInstall += "Python", "Node.js", "Yarn", "Ruby", "PHP", "Composer", "Go", "Rust" }
+    "2" { $toolsToInstall += "Python", "Node.js", "Yarn", "Ruby", "PHP", "Composer", "Go", "Rust", "Scala", "Julia", "Kotlin", "R", "Erlang", "Haskell", "Clojure", "Dart", "F#", "Swift", "Perl", "Elixir", "Groovy", "Lua" }
     "3" { $toolsToInstall += "MySQL", "PostgreSQL", "SQLite", "MongoDB",
-        "Redis", "Elasticsearch", "Cassandra" }
+        "Redis", "Elasticsearch", "Cassandra", "InfluxDB", "Apache CouchDB", "Neo4j", "Hadoop", "Apache Kafka", "Apache Zookeeper", "Redis Desktop Manager", "Apache Cassandra", "RabbitMQ", "HBase", "Aerospike", "JanusGraph", "Etcd", "OrientDB", "PouchDB", "RethinkDB" }
     "4" { $toolsToInstall += "Git", "GitHub Desktop" }
     "5" { $toolsToInstall += "Docker", "Postman", "Java", "Gradle", "Maven", "GitLab Runner", "Azure Data Studio", "Firebase CLI" }
     "6" {
